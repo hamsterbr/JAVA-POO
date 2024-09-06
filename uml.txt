@@ -1,0 +1,37 @@
++-----------------------------------+
+|        EquacaoSegundoGrau         |
++-----------------------------------+
+| - a: double                       |
+| - b: double                       |
+| - c: double                       |
++-----------------------------------+
+| + EquacaoSegundoGrau(a: double,   |
+|   b: double, c: double)           |
+| + resolver(): void                |
++-----------------------------------+
+
+
++-------------------------------------------------+
+|         CalculadorDesvioPadrao                  |
++-------------------------------------------------+
+| - dados: List<Double>                           |
++-------------------------------------------------+
+| + CalculadorDesvioPadrao(dados: List<Double>)   |
+| + calcularDesvioPadrao(): double                |
++-------------------------------------------------+
+
+
++-----------------------------------------------------+
+|            CalculadorJurosCompostos                 |
++-----------------------------------------------------+
+| - valorPrincipal: double                            |
+| - taxaJuros: double                                 |
+| - tempoAplicacao: int                               |
+| - periodoCapitalizacao: String                      |
++-----------------------------------------------------+
+| + CalculadorJurosCompostos(valorPrincipal: double,  |
+|   taxaJuros: double, tempoAplicacao: int,           |
+|   periodoCapitalizacao: String)                     |
+| + calcularMontante(): double                        |
++-----------------------------------------------------+
+
